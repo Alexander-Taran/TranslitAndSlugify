@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0-alpha",
+  "version": "1.0.0-alpha-4",
   "title": "Translit and slugify",
   "description": "A simple utility that converts Cyrillic Russian string to Translit and another one that strips non alphanumeric symbols from a string for a url slug.",
   "authors": [ "Alexander Taran" ],
@@ -9,21 +9,10 @@
   "licenseUrl": "https://github.com/Alexander-Taran/TranslitAndSlugify/blob/master/LICENSE",
 
   "dependencies": {
-    "System.Text.RegularExpressions": "4.0.10-beta-22816"
-    
-
   },
 
   "frameworks": {
-    "net451": { },
-    "dnx451": { },
-    "dnxcore50": {
-      "dependencies": {
-        "System.Collections": "4.0.10-beta-22816",
-        "System.Linq": "4.0.0-beta-22816",
-        "System.Threading": "4.0.10-beta-22816",
-        "Microsoft.CSharp": "4.0.0-beta-22816"
-      }
-    }
+    "net450": { }
+   
   }
 }
